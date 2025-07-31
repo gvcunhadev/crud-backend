@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/agendamentos")
+@CrossOrigin(origins = "http://localhost:4200")
 public class AgendamentoConsultaController {
 
     private final AgendamentoConsultaService service;
